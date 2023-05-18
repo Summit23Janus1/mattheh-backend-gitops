@@ -1,0 +1,15 @@
+app:
+  name: poi-backend-app
+  namespace: mattheh
+  cluster: .apps.summit23rock.n26o.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23Janus1/mattheh-backend
+  org: Summit23Janus1
+  name: mattheh-backend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: mattheh/poi-backend-app
+  tag: latest
